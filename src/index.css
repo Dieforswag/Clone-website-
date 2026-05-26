@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=DM+Sans:wght@400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,8 +6,8 @@
 
 @layer base {
   :root {
-    --font-display: 'Bricolage Grotesque', sans-serif;
-    --font-body: 'Inter', sans-serif;
+    --font-display: 'Playfair Display', Georgia, serif;
+    --font-body: 'DM Sans', sans-serif;
 
     --background: 0 0% 100%;
     --foreground: 0 0% 5%;
@@ -15,24 +15,24 @@
     --card-foreground: 0 0% 5%;
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 5%;
-    --primary: 18 89% 55%;
+    --primary: 16 83% 50%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 0 0% 96%;
+    --secondary: 0 0% 97%;
     --secondary-foreground: 0 0% 5%;
-    --muted: 0 0% 96%;
+    --muted: 0 0% 97%;
     --muted-foreground: 0 0% 45%;
-    --accent: 0 0% 96%;
+    --accent: 0 0% 97%;
     --accent-foreground: 0 0% 5%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
     --border: 0 0% 90%;
     --input: 0 0% 90%;
-    --ring: 18 89% 55%;
+    --ring: 16 83% 50%;
     --radius: 1rem;
 
-    --brand: #F15B2A;
-    --brand-dark: #D94E20;
-    --surface: #F6F6F6;
+    --brand: #E8521A;
+    --brand-dark: #C94415;
+    --surface: #F8F8F8;
     --text-primary: #0D0D0D;
     --text-secondary: #4D4D4D;
   }
@@ -41,12 +41,12 @@
 @layer base {
   * { @apply border-border; }
   body { @apply bg-white text-[#0D0D0D] font-body antialiased; }
-  ::selection { background: #F15B2A; color: white; }
+  ::selection { background: #E8521A; color: white; }
 }
 
 ::-webkit-scrollbar { width: 5px; }
-::-webkit-scrollbar-track { background: #F6F6F6; }
+::-webkit-scrollbar-track { background: #F8F8F8; }
 ::-webkit-scrollbar-thumb { background: #D4D4D4; border-radius: 10px; }
-::-webkit-scrollbar-thumb:hover { background: #F15B2A; }
+::-webkit-scrollbar-thumb:hover { background: #E8521A; }
 
 html { scroll-behavior: smooth; }

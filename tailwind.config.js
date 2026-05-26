@@ -5,16 +5,16 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        display: ['Bricolage Grotesque', 'sans-serif'],
-        body: ['Inter', 'sans-serif'],
+        display: ['Playfair Display', 'Georgia', 'serif'],
+        body: ['DM Sans', 'sans-serif'],
       },
       colors: {
         brand: {
-          DEFAULT: '#F15B2A',
-          dark: '#D94E20',
-          light: '#FFF0EA',
+          DEFAULT: '#E8521A',
+          dark: '#C94415',
+          light: '#FFF0EB',
         },
-        surface: '#F6F6F6',
+        surface: '#F8F8F8',
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
         card: { DEFAULT: 'hsl(var(--card))', foreground: 'hsl(var(--card-foreground))' },
@@ -49,9 +49,9 @@ module.exports = {
         'fade-in': 'fade-in 0.4s ease-out forwards',
       },
       boxShadow: {
-        'card': '0 2px 16px rgba(0,0,0,0.06)',
-        'card-hover': '0 8px 40px rgba(0,0,0,0.12)',
-        'brand': '0 8px 32px rgba(241,91,42,0.25)',
+        'card': '0 2px 16px rgba(0,0,0,0.08)',
+        'card-hover': '0 8px 32px rgba(0,0,0,0.12)',
+        'brand': '0 4px 20px rgba(232,82,26,0.35)',
       },
     },
   },
